@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=League+Spartan:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sparatan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4{
+    font-size: 20px;
+    color: black;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    margin: #465b52;
+}
+
+.section-p1_{
+    padding: 40px;
+}
+
+.section-m1_{
+    margin: 40px 0;
+}
+
+body{
+    width: 100%;
+}
+
+#header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px 60px;
+background-color: rgb(251 251 251);
+box-shadow: 0  5px 15px  rgb(0, 0, 0, 0.06); 
+position: sticky;
+top: 0;
+left: 0;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(142, 58, 145);
+    font-style: sans-serif;;
+}
+#navber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navber li{
+    list-style: none;
+    padding: 0 20px;
+    /* position: relative; */
+}
+
+#navber li a {
+text-decoration: none;
+font-size: 20px;
+font-weight: 600;
+color: black;
+transition: 0.3s ease;
+} 
+
+#navber li a:hover,
+#navber li a.active{
+    color: rgb(44, 41, 214);
+}
+
+/* #navber li a.active ::after,
+#navber li a.active ::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background-color:rgb(25, 27, 27);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} */
+
+
+#banner{
+    background-image: url(./pic\ 3.jpg);
+    height: 100vh;
+    width: 100%; 
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#banner h4{
+    padding-bottom: 0px;
+    color: #f3f3f3;
+    font-size: 40px;
+}
+
+#banner h2{
+    font-size: 40px;
+    line-height: 45px;
+    color: #f3f3f3;
+}
+
+#banner h1{
+color: #f3f3f3;
+}
+
+#banner button{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 14px, 80px, 14px, 65px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+    height:40px;
+    border-radius: 16px;
+    border: 2px solid rgb(251, 251, 255);
+}
+ 
+#banner p{
+    color: #f3f3f3;
+    font-size: 25px;
+}
+
+
+
+@media(min-width: 992px){
+    #header{
+        border-bottom: none;
+    }
+}
